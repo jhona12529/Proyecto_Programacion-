@@ -11,3 +11,7 @@ def menu():
         if opcion == "7":
             break
 menu()
+
+def registro_stock():
+    stock_nuevo = []
+    
