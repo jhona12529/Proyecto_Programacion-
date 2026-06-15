@@ -39,6 +39,10 @@ def agregar_productos():
             
             if id_producto < 0:
                 print("El ID del producto no puede ser negativo.")
+            elif id_producto in Productos.txt:
+                print("Error ingresa un id correcto :)")
+            else:
+                print("Producto agregado")
                 return
             if Precio < 0:
                 print("El precio del producto no puede ser negativo.")
